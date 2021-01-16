@@ -1,6 +1,4 @@
 import Mock from "../mock";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCoffee } from '@fortawesome/free-solid-svg-icons'
 
 const database = {
   information: {
@@ -74,42 +72,44 @@ const database = {
   skills: [
     {
       title: "Wordpress",
-      icon: "Wordpress"
+      icon: "wordpress",
+      type: "brand"
       
     },
     {
       title: "HTML5",
-      icon: "html"
-     
+      icon: "html5",
+      type: "brand"
     },
     {
       title: "CSS3",
-      icon: "css"
-     
+      icon: "css3",
+      type: "brand"
     },
     {
       title: "SASS",
-      icon: faCoffee
-      
+      icon: "sass",
+      type: "brand"
     },
     {
       title: "Javascript",
-      icon: "lni-javascript"
-      
+      icon: "js",
+      type: "brand"
     },
     {
       title: "D3.js",
-      icon: "d3"
-      
+      icon: "d3",
+      type: "brand"
     },
     {
       title: "Node.js",
-      icon: "nodejs"
-     
+      icon: "node-js",
+      type: "brand"
     },
     {
       title: "React.js",
-      icon: "react"
+      icon: "react",
+      type: "brand"
     }
     
   ],
