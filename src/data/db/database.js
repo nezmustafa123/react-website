@@ -99,7 +99,7 @@ const database = {
     {
       title: "D3.js",
       icon: "d3",
-      type: "brand"
+      type: "notbrand"
     },
     {
       title: "Node.js",
