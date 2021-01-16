@@ -11,7 +11,7 @@ import {
   faSass
 } from '@fortawesome/free-brands-svg-icons';
 
-import d3Icon from '../d3.js-icon.svg'
+import D3Icon from "./D3Icon";
 
 library.add(faWordpress);
 library.add(faHtml5);
@@ -28,7 +28,7 @@ function Progress(props){
   return (
     <div className="mi-progress">
       <h6 className="mi-progress-title">{props.title}</h6>
-      {Title == "D3.js" ? <img src={d3Icon} width="18px" className="d3js-icon" /> : <FontAwesomeIcon icon={["fab", Icon]} />}
+      {Title == "D3.js" ? <D3Icon /> : <FontAwesomeIcon icon={["fab", Icon]} />}
     </div>
    
   );
