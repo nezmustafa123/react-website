@@ -10,6 +10,7 @@ function Portfolios() {
   const [currentPage, setCurrentPage] = useState(1);
   const [portfoliosPerPage] = useState(12);
   const [category, setCategory] = useState('all');
+  const [categorys, setCategorys] = useState(null);
 
   useEffect(() => {
     let mounted = true;
@@ -35,33 +36,37 @@ function Portfolios() {
     e.preventDefault();
     setCurrentPage(pageNumber);
   };
-  console.log('protfolio data ', portfolios);
+
+  useEffect(() => {
+    let [...categorys] = new Set([...portfolio.map((items) => items.category)]);
+    setCategorys(categorys);
+  }, [portfolio]);
 
   return (
     <Layout>
       <div className='mi-about mi-section mi-padding-top mi-padding-bottom'>
         <div className='container'>
           <Sectiontitle title='Portfolio' />
-          <ul className='d-flex list-unstyled'>
+          <ul className='d-flex list-unstyled mb-5'>
             <li>
-              <button onClick={() => setCategory('all')}>All</button>
-            </li>
-            <li>
-              <button onClick={() => setCategory('website')}>Website</button>
-            </li>
-            <li>
-              <button onClick={() => setCategory('javascript')}>
-                Javascript
+              <button
+                onClick={() => setCategory('all')}
+                className={`${category == 'all' && ' active'}`}
+              >
+                All
               </button>
             </li>
-            <li>
-              <button onClick={() => setCategory('python')}>Python</button>
-            </li>
-            <li>
-              <button onClick={() => setCategory('datta-viz')}>
-                Datta-viz
-              </button>
-            </li>
+            {categorys &&
+              categorys.map((items) => (
+                <li className='mx-1'>
+                  <button
+                    onClick={() => setCategory(items)}
+                    className={`${category == items && ' active'}`}
+                  >
+                    {items}
+                  </button>
+                </li>
+              ))}
           </ul>
           {<PortfoliosView portfolios={currentPortfolios} />}
           {!(portfolios.length > portfoliosPerPage) ? null : (
