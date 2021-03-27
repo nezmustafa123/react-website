@@ -120,6 +120,9 @@ const database = {
     {
       id: 1,
       title: 'T-shirt Mockup',
+      technologies: ['CakePHP', 'Javascript', 'Python', 'Java'],
+      description:
+        'In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available',
       subtitle: 'A beautiful t-shirt mockup.',
       imageUrl: '/images/portfolio-image-1.jpg',
       largeImageUrl: ['/images/portfolio-image-1-lg.jpg'],
@@ -129,6 +132,9 @@ const database = {
     {
       id: 2,
       title: 'Coffee Mug',
+      technologies: ['CakePHP', 'Javascript', 'Python', 'Java'],
+      description:
+        'In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available',
       subtitle: 'Awesome coffee mug design.',
       imageUrl: '/images/portfolio-image-4.jpg',
       largeImageUrl: [
@@ -141,6 +147,9 @@ const database = {
     {
       id: 3,
       title: 'Tea & Coffee Mug',
+      technologies: ['CakePHP', 'Javascript', 'Python', 'Java'],
+      description:
+        'In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available',
       subtitle: 'Beautiful mug with logo.',
       imageUrl: '/images/portfolio-image-2.jpg',
       url: 'https://pinterest.com',
@@ -149,6 +158,9 @@ const database = {
     {
       id: 4,
       title: 'Pen Holder',
+      technologies: ['CakePHP', 'Javascript', 'Python', 'Java'],
+      description:
+        'In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available',
       subtitle: 'A pen holder with beautiful design.',
       imageUrl: '/images/portfolio-image-3.jpg',
       largeImageUrl: ['/images/portfolio-image-3-lg.jpg'],
@@ -158,6 +170,9 @@ const database = {
     {
       id: 5,
       title: 'Mug',
+      technologies: ['CakePHP', 'Javascript', 'Python', 'Java'],
+      description:
+        'In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available',
       subtitle: 'Mug with awesome style',
       imageUrl: '/images/portfolio-image-5.jpg',
       largeImageUrl: ['/images/portfolio-image-5-lg.jpg'],
@@ -166,6 +181,9 @@ const database = {
     {
       id: 6,
       title: 'Pendrive',
+      technologies: ['CakePHP', 'Javascript', 'Python', 'Java'],
+      description:
+        'In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available',
       subtitle: 'Free pendrive mockup design.',
       imageUrl: '/images/portfolio-image-6.jpg',
       largeImageUrl: ['/images/portfolio-image-6-lg.jpg'],
@@ -174,6 +192,9 @@ const database = {
     {
       id: 7,
       title: 'Beautiful Pendrive',
+      technologies: ['CakePHP', 'Javascript', 'Python', 'Java'],
+      description:
+        'In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available',
       subtitle: 'Pendrive with great design & flexible.',
       imageUrl: '/images/portfolio-image-7.jpg',
       largeImageUrl: ['/images/portfolio-image-7-lg.jpg'],
@@ -183,6 +204,9 @@ const database = {
     {
       id: 8,
       title: 'Sticker',
+      technologies: ['CakePHP', 'Javascript', 'Python', 'Java'],
+      description:
+        'In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available',
       subtitle: 'Clip sticker mockup design.',
       imageUrl: '/images/portfolio-image-8.jpg',
       largeImageUrl: ['/images/portfolio-image-8-lg.jpg'],
@@ -191,6 +215,9 @@ const database = {
     {
       id: 9,
       title: 'Packet',
+      technologies: ['CakePHP', 'Javascript', 'Python', 'Java'],
+      description:
+        'In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available',
       subtitle: 'Beautiful packet & product design.',
       imageUrl: '/images/portfolio-image-9.jpg',
       largeImageUrl: ['/images/portfolio-image-9-lg.jpg'],
@@ -199,6 +226,9 @@ const database = {
     {
       id: 10,
       title: 'Pen Holder',
+      technologies: ['CakePHP', 'Javascript', 'Python', 'Java'],
+      description:
+        'In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available',
       subtitle: 'A pen holder with beautiful design.',
       imageUrl: '/images/portfolio-image-3.jpg',
       largeImageUrl: ['/images/portfolio-image-3-lg.jpg'],
@@ -208,6 +238,9 @@ const database = {
     {
       id: 11,
       title: 'Coffee Mug',
+      technologies: ['CakePHP', 'Javascript', 'Python', 'Java'],
+      description:
+        'In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available',
       subtitle: 'Awesome coffee mug design.',
       imageUrl: '/images/portfolio-image-4.jpg',
       largeImageUrl: [
@@ -220,6 +253,9 @@ const database = {
     {
       id: 12,
       title: 'Tea & Coffee Mug',
+      technologies: ['CakePHP', 'Javascript', 'Python', 'Java'],
+      description:
+        'In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available',
       subtitle: 'Beautiful mug with logo.',
       imageUrl: '/images/portfolio-image-2.jpg',
       url: 'https://pinterest.com',
@@ -228,6 +264,9 @@ const database = {
     {
       id: 13,
       title: 'T-shirt Mockup',
+      technologies: ['CakePHP', 'Javascript', 'Python', 'Java'],
+      description:
+        'In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available',
       subtitle: 'A beautiful t-shirt mockup.',
       imageUrl: '/images/portfolio-image-1.jpg',
       largeImageUrl: ['/images/portfolio-image-1-lg.jpg'],
@@ -237,6 +276,9 @@ const database = {
     {
       id: 14,
       title: 'Mug',
+      technologies: ['CakePHP', 'Javascript', 'Python', 'Java'],
+      description:
+        'In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available',
       subtitle: 'Mug with awesome style',
       imageUrl: '/images/portfolio-image-5.jpg',
       largeImageUrl: ['/images/portfolio-image-5-lg.jpg'],
@@ -245,6 +287,9 @@ const database = {
     {
       id: 15,
       title: 'Pendrive',
+      technologies: ['CakePHP', 'Javascript', 'Python', 'Java'],
+      description:
+        'In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available',
       subtitle: 'Free pendrive mockup design.',
       imageUrl: '/images/portfolio-image-6.jpg',
       largeImageUrl: ['/images/portfolio-image-6-lg.jpg'],
@@ -253,6 +298,9 @@ const database = {
     {
       id: 16,
       title: 'Beautiful Pendrive',
+      technologies: ['CakePHP', 'Javascript', 'Python', 'Java'],
+      description:
+        'In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available',
       subtitle: 'Pendrive with great design & flexible.',
       imageUrl: '/images/portfolio-image-7.jpg',
       largeImageUrl: ['/images/portfolio-image-7-lg.jpg'],
@@ -262,6 +310,9 @@ const database = {
     {
       id: 17,
       title: 'Sticker',
+      technologies: ['CakePHP', 'Javascript', 'Python', 'Java'],
+      description:
+        'In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available',
       subtitle: 'Clip sticker mockup design.',
       imageUrl: '/images/portfolio-image-8.jpg',
       largeImageUrl: ['/images/portfolio-image-8-lg.jpg'],
@@ -270,6 +321,9 @@ const database = {
     {
       id: 18,
       title: 'Packet',
+      technologies: ['CakePHP', 'Javascript', 'Python', 'Java'],
+      description:
+        'In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available',
       subtitle: 'Beautiful packet & product design.',
       imageUrl: '/images/portfolio-image-9.jpg',
       largeImageUrl: ['/images/portfolio-image-9-lg.jpg'],
@@ -278,6 +332,9 @@ const database = {
     {
       id: 19,
       title: 'T-shirt Mockup',
+      technologies: ['CakePHP', 'Javascript', 'Python', 'Java'],
+      description:
+        'In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available',
       subtitle: 'A beautiful t-shirt mockup.',
       imageUrl: '/images/portfolio-image-1.jpg',
       largeImageUrl: ['/images/portfolio-image-1-lg.jpg'],
@@ -287,6 +344,9 @@ const database = {
     {
       id: 20,
       title: 'Coffee Mug',
+      technologies: ['CakePHP', 'Javascript', 'Python', 'Java'],
+      description:
+        'In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available',
       subtitle: 'Awesome coffee mug design.',
       imageUrl: '/images/portfolio-image-4.jpg',
       largeImageUrl: [
@@ -299,6 +359,9 @@ const database = {
     {
       id: 21,
       title: 'Tea & Coffee Mug',
+      technologies: ['CakePHP', 'Javascript', 'Python', 'Java'],
+      description:
+        'In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available',
       subtitle: 'Beautiful mug with logo.',
       imageUrl: '/images/portfolio-image-2.jpg',
       url: 'https://pinterest.com',
@@ -307,6 +370,9 @@ const database = {
     {
       id: 22,
       title: 'Pen Holder',
+      technologies: ['CakePHP', 'Javascript', 'Python', 'Java'],
+      description:
+        'In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available',
       subtitle: 'A pen holder with beautiful design.',
       imageUrl: '/images/portfolio-image-3.jpg',
       largeImageUrl: ['/images/portfolio-image-3-lg.jpg'],
@@ -316,6 +382,9 @@ const database = {
     {
       id: 23,
       title: 'Mug',
+      technologies: ['CakePHP', 'Javascript', 'Python', 'Java'],
+      description:
+        'In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available',
       subtitle: 'Mug with awesome style',
       imageUrl: '/images/portfolio-image-5.jpg',
       largeImageUrl: ['/images/portfolio-image-5-lg.jpg'],
