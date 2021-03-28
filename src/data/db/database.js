@@ -126,7 +126,8 @@ const database = {
       subtitle: 'A beautiful t-shirt mockup.',
       imageUrl: '/images/portfolio-image-1.jpg',
       largeImageUrl: ['/images/portfolio-image-1-lg.jpg'],
-      url: 'https://dribbble.com',
+      github:'https://github.com/sunny335',
+      liveProject: 'https://dribbble.com',
       category: 'website',
     },
     {
@@ -141,7 +142,8 @@ const database = {
         '/images/portfolio-image-4-lg.jpg',
         '/images/portfolio-image-4-lg2.jpg',
       ],
-      url: 'https://facebook.com',
+      github:'https://github.com/sunny335',
+      liveProject: 'https://facebook.com',
       category: 'javascript',
     },
     {
@@ -152,7 +154,8 @@ const database = {
         'In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available',
       subtitle: 'Beautiful mug with logo.',
       imageUrl: '/images/portfolio-image-2.jpg',
-      url: 'https://pinterest.com',
+      github:'https://github.com/sunny335',
+      liveProject: 'https://pinterest.com',
       category: 'website',
     },
     {
@@ -164,7 +167,8 @@ const database = {
       subtitle: 'A pen holder with beautiful design.',
       imageUrl: '/images/portfolio-image-3.jpg',
       largeImageUrl: ['/images/portfolio-image-3-lg.jpg'],
-      url: '#',
+      github:'https://github.com/sunny335',
+      liveProject: '#',
       category: 'website',
     },
     {
@@ -198,7 +202,8 @@ const database = {
       subtitle: 'Pendrive with great design & flexible.',
       imageUrl: '/images/portfolio-image-7.jpg',
       largeImageUrl: ['/images/portfolio-image-7-lg.jpg'],
-      url: 'https://twitter.com',
+      github:'https://github.com/sunny335',
+      liveProject: 'https://twitter.com',
       category: 'python',
     },
     {
@@ -232,7 +237,8 @@ const database = {
       subtitle: 'A pen holder with beautiful design.',
       imageUrl: '/images/portfolio-image-3.jpg',
       largeImageUrl: ['/images/portfolio-image-3-lg.jpg'],
-      url: '#',
+      github:'https://github.com/sunny335',
+      liveProject: '#',
       category: 'python',
     },
     {
@@ -247,7 +253,8 @@ const database = {
         '/images/portfolio-image-4-lg.jpg',
         '/images/portfolio-image-4-lg2.jpg',
       ],
-      url: 'https://facebook.com',
+      github:'https://github.com/sunny335',
+      liveProject: 'https://facebook.com',
       category: 'python',
     },
     {
@@ -258,7 +265,8 @@ const database = {
         'In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available',
       subtitle: 'Beautiful mug with logo.',
       imageUrl: '/images/portfolio-image-2.jpg',
-      url: 'https://pinterest.com',
+      github:'https://github.com/sunny335',
+      liveProject: 'https://pinterest.com',
       category: 'python',
     },
     {
@@ -270,7 +278,8 @@ const database = {
       subtitle: 'A beautiful t-shirt mockup.',
       imageUrl: '/images/portfolio-image-1.jpg',
       largeImageUrl: ['/images/portfolio-image-1-lg.jpg'],
-      url: 'https://dribbble.com',
+      github:'https://github.com/sunny335',
+      liveProject: 'https://dribbble.com',
       category: 'python',
     },
     {
@@ -304,7 +313,8 @@ const database = {
       subtitle: 'Pendrive with great design & flexible.',
       imageUrl: '/images/portfolio-image-7.jpg',
       largeImageUrl: ['/images/portfolio-image-7-lg.jpg'],
-      url: 'https://twitter.com',
+      github:'https://github.com/sunny335',
+      liveProject: 'https://twitter.com',
       category: 'python',
     },
     {
@@ -338,7 +348,8 @@ const database = {
       subtitle: 'A beautiful t-shirt mockup.',
       imageUrl: '/images/portfolio-image-1.jpg',
       largeImageUrl: ['/images/portfolio-image-1-lg.jpg'],
-      url: 'https://dribbble.com',
+      github:'https://github.com/sunny335',
+      liveProject: 'https://dribbble.com',
       category: 'python',
     },
     {
@@ -353,7 +364,8 @@ const database = {
         '/images/portfolio-image-4-lg.jpg',
         '/images/portfolio-image-4-lg2.jpg',
       ],
-      url: 'https://facebook.com',
+      github:'https://github.com/sunny335',
+      liveProject: 'https://facebook.com',
       category: 'python',
     },
     {
@@ -364,7 +376,8 @@ const database = {
         'In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available',
       subtitle: 'Beautiful mug with logo.',
       imageUrl: '/images/portfolio-image-2.jpg',
-      url: 'https://pinterest.com',
+      github:'https://github.com/sunny335',
+      liveProject: 'https://pinterest.com',
       category: 'python',
     },
     {
@@ -376,7 +389,8 @@ const database = {
       subtitle: 'A pen holder with beautiful design.',
       imageUrl: '/images/portfolio-image-3.jpg',
       largeImageUrl: ['/images/portfolio-image-3-lg.jpg'],
-      url: '#',
+      github:'https://github.com/sunny335',
+      liveProject: '#',
       category: 'datta-viz',
     },
     {

@@ -27,22 +27,11 @@ function Portfolio(props) {
               </button>
             </li>
           )}
-          {url ? (
-            <li>
-              <a rel='noopener noreferrer' target='_blank' href={url}>
-                <Icon.Link />
-              </a>
-            </li>
-          ) : null}
         </ul>
       </div>
-      {!url ? (
-        <h5>{title}</h5>
-      ) : (
         <h5>
           <Link to={`/Protfolio-details/${id}`}>{title}</Link>
         </h5>
-      )}
       {subtitle ? <h6>{subtitle}</h6> : null}
       {!largeImageUrl ? null : (
         <FsLightbox toggler={toggler} sources={largeImageUrl} />

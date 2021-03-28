@@ -69,12 +69,12 @@ const ProtfolioDetails = (props) => {
               </div>
               <ul className='list-unstyled d-flex flex-wrap'>
                 <li className='mr-4'>
-                  <a href={details?.url}>
+                  <a href={details?.liveProject}>
                     <Icon.Eye />
                   </a>
                 </li>
                 <li>
-                  <a href={details?.url}>
+                  <a href={details?.github}>
                     <Icon.Code />
                   </a>
                 </li>
