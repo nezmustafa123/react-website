@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 function Portfolio(props) {
   const [toggler, setToggler] = useState(false);
-  const { title, subtitle, imageUrl, largeImageUrl, url, id } = props.content;
+  const { title, subtitle, imageUrl, largeImageUrl, id } = props.content;
 
   const handleToggler = (value) => {
     setToggler(value);

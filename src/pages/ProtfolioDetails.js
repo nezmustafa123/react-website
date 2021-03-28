@@ -37,7 +37,7 @@ const ProtfolioDetails = (props) => {
     setDetails(
       portfolio && portfolio.filter((item) => item.id === parseInt(id))[0]
     );
-  }, [portfolio]);
+  }, [portfolio,id]);
 
   return (
     <Layout>

@@ -51,7 +51,7 @@ function Portfolios() {
             <li>
               <button
                 onClick={() => setCategory('all')}
-                className={`${category == 'all' && ' active'} text-capitalize`}
+                className={`${category === 'all' && ' active'} text-capitalize`}
               >
                 All
               </button>
@@ -62,7 +62,7 @@ function Portfolios() {
                   <button
                     onClick={() => setCategory(items)}
                     className={`${
-                      category == items && 'active'
+                      category === items && 'active'
                     } text-capitalize`}
                   >
                     {items}
