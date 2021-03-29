@@ -59,7 +59,7 @@ const ProtfolioDetails = (props) => {
                 </Slider>
               </div>
               <div className='technologies'>
-                <h6>technologies used</h6>
+                <h6>Technologies Used</h6>
                 <ul className='list-unstyled d-flex flex-wrap'>
                   {details?.technologies &&
                     details?.technologies.map((items) => (
