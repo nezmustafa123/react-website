@@ -47,7 +47,7 @@ const ProtfolioDetails = (props) => {
             <div class='col-md-7'>
               {' '}
               <h3>{details?.title}</h3>
-              <p className='mt-4'>{details?.description}</p>
+              <p className='mt-5'>{details?.description}</p>
             </div>
             <div class='col-md-5'>
               <div className='screen-shot'>
