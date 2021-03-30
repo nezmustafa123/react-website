@@ -58,12 +58,12 @@ const ProtfolioDetails = (props) => {
                     ))}
                 </Slider>
               </div>
-              <div className='technologies'>
+              <div className='technologies mt-3'>
                 <h6>Technologies Used</h6>
-                <ul className='list-unstyled d-flex flex-wrap'>
+                <ul className='list-unstyled d-flex flex-wrap mt-3 mb-4'>
                   {details?.technologies &&
                     details?.technologies.map((items) => (
-                      <li className='mr-3'>{items},</li>
+                      <li className='mr-3 border border-secondary px-2 py-1 rounded'>{items}</li>
                     ))}
                 </ul>
               </div>
