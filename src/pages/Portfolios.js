@@ -48,7 +48,7 @@ function Portfolios() {
         <div className='container'>
           <Sectiontitle title='Portfolio' />
           <ul className='d-flex list-unstyled mb-5 flex-wrap'>
-            <li>
+            <li className='mb-2'>
               <button
                 onClick={() => setCategory('all')}
                 className={`${category === 'all' && ' active'} text-capitalize`}
