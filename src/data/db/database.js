@@ -391,7 +391,7 @@ const database = {
       largeImageUrl: ['/images/portfolio-image-3-lg.jpg'],
       github:'https://github.com/sunny335',
       liveProject: '#',
-      category: 'datta-viz',
+      category: 'Data-Visualization',
     },
     {
       id: 23,
