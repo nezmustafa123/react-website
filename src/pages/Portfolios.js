@@ -47,7 +47,7 @@ function Portfolios() {
       <div className='mi-about mi-section mi-padding-top mi-padding-bottom'>
         <div className='container'>
           <Sectiontitle title='Portfolio' />
-          <ul className='d-flex list-unstyled mb-5'>
+          <ul className='d-flex list-unstyled mb-5 flex-wrap'>
             <li>
               <button
                 onClick={() => setCategory('all')}
@@ -57,8 +57,8 @@ function Portfolios() {
               </button>
             </li>
             {categorys &&
-              categorys.map((items) => (
-                <li className='mx-1'>
+              categorys.map((items,i) => (
+                <li className='mx-1' key={i}>
                   <button
                     onClick={() => setCategory(items)}
                     className={`${

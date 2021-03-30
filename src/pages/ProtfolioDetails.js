@@ -44,17 +44,17 @@ const ProtfolioDetails = (props) => {
       <div className='mi-blog-details mi-section mi-padding-top mi-padding-bottom'>
         <div className='container'>
           <div class='row'>
-            <div class='col-md-7'>
+            <div className='col-md-7'>
               {' '}
               <h3>{details?.title}</h3>
               <p className='mt-5'>{details?.description}</p>
             </div>
-            <div class='col-md-5'>
+            <div className='col-md-5'>
               <div className='screen-shot'>
                 <Slider {...settings}>
                   {details?.largeImageUrl &&
-                    details?.largeImageUrl.map((items) => (
-                      <img src={items} alt='screenshot' className='img-fluid' />
+                    details?.largeImageUrl.map((items,i) => (
+                      <img key={i} src={items} alt='screenshot' className='img-fluid' />
                     ))}
                 </Slider>
               </div>
@@ -62,8 +62,8 @@ const ProtfolioDetails = (props) => {
                 <h6>Technologies Used</h6>
                 <ul className='list-unstyled d-flex flex-wrap mt-3 mb-4'>
                   {details?.technologies &&
-                    details?.technologies.map((items) => (
-                      <li className='mr-3 border border-secondary px-2 py-1 rounded'>{items}</li>
+                    details?.technologies.map((items,i) => (
+                      <li key={i} className='mr-3 border border-secondary px-2 py-1 rounded'>{items}</li>
                     ))}
                 </ul>
               </div>
