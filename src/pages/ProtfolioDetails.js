@@ -44,7 +44,7 @@ const ProtfolioDetails = (props) => {
       <div className='mi-blog-details mi-section mi-padding-top mi-padding-bottom'>
         <div className='container'>
           <div class='row'>
-            <div className='col-md-7'>
+            <div className='col-md-7 mt-4 mt-md-0'>
               {' '}
               <h3>{details?.title}</h3>
               <p className='mt-5'>{details?.description}</p>
