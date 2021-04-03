@@ -47,8 +47,8 @@ function Portfolios() {
       <div className='mi-about mi-section mi-padding-top mi-padding-bottom'>
         <div className='container'>
           <Sectiontitle title='Portfolio' />
-          <ul className='d-flex list-unstyled mb-5'>
-            <li>
+          <ul className='d-flex list-unstyled mb-5 flex-wrap'>
+            <li className='mb-2'>
               <button
                 onClick={() => setCategory('all')}
                 className={`${category === 'all' && ' active'} text-capitalize`}
@@ -57,8 +57,8 @@ function Portfolios() {
               </button>
             </li>
             {categorys &&
-              categorys.map((items) => (
-                <li className='mx-1'>
+              categorys.map((items,i) => (
+                <li className='mx-1' key={i}>
                   <button
                     onClick={() => setCategory(items)}
                     className={`${
